@@ -19,7 +19,7 @@ const App =()=>(
         iconName = focused ? "home" : "home-outline"
       }
       if( route.name === "Notification"){
-        iconName = focused ? "notificatioins" : "notifications-outline"
+        iconName = focused ? "notifications" : "notifications-outline"
       }
       if(route.name === "Setting"){
         iconName = focused ? "settings" : "settings-outline"
